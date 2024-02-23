@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('img2.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .signup-box {
+    position: relative;
+    width: 400px;
+    height: 620px;
+    background: transparent;
+    border: 10px solid rgba(58, 28, 231, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    text-align:center;
+    padding-top:15px;
+
+  }
+  h4{
+    text-align: center;
+
+  }
+  form{
+    width: 300px;
+    margin-left:20px;
+  }
+  form label{
+    display: flex;
+    margin-top:20px;
+    font-size: 18px;
+  
+}
+form input{
+  width: 100%;
+  padding:7px;
+border: none;
+border:1px solid gray;
+border-radius:6px;
+outline:none;
+}
+input[type="button"]{
+  width:320px;
+  height:35px;
+  margin-top:20px;
+  border:none;
+  background-color:rgb(104, 215, 104);
+  color:white;
+  font-size:18px;
+}
+p{
+  text-align:center;
+  padding-top:20px;
+  font-size:15px;
+  color:white;
+}
+.para-2{
+  text-align:center;
+  color:white;
+  font-size:15px;
+  margin-top:-10px;
+}
+button{
+  height:35px;
+  width:320px;
+color:white;
+  background-color:rgb(104, 215, 104);
+  font-size:18px;
+  margin-top:20px;
+  border:none;
+}
+  
+ 
+
